@@ -96,13 +96,13 @@ OK, faço o mesmo procedimento para os minutos e segundos, trocando apenas a pal
 const secondsDegrees = ((seconds/60) * 360) + 90;
 $pointerSec.style.transform = `rotate(${secondsDegrees}deg)`
 
-const allPointers = document.querySelectorAll('[data-js="pointer"]')
+const allPointers = document.querySelectorAll('.pointer')
 
 if(secondsDegrees === 90) {
-  allPointers.forEach(hand => hand.style.transition = 'none')
+  allPointers.forEach(pointer => pointer.style.transition = 'none')
 
 } else {
-    allPointers.forEach(hand => hand.style.transition = '')
+    allPointers.forEach(pointer => pointer.style.transition = '')
   }
 ```
 
