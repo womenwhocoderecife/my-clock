@@ -1,6 +1,6 @@
-# HTML
-
 ![html](html.png)
+
+# O que é HTML
 
 É uma linguagem de marcação que além de ser responsável por exibir a informação ela dá significado aos dados que são exibidos na tela.
 
@@ -20,18 +20,26 @@ O nome da tag `<div>` vem de divisão, ela é uma caixa genérica que não repre
 ```HTML
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
 
-<body>
+  <body>
 
-</body>
+  </body>
 
 </html>
+```
+
+Observe a tag `title`, ela irá exibir o título da página, altere o texto `Document` por `My Clock`.
+
+Agora pra ficar mais completo vamos adicionar o código abaixo na primeira linha do nosso arquivo index.html. Ele serve para avisar ao navegador qual o tipo de conteúdo ele irá carregar na tela.
+
+```HTML
+<!DOCTYPE html>
 ```
 
 > Obs.: Esta não é melhor forma de começar uma aplicação para quem ainda está a na fase de início de aprendizado, porém devido ao nosso tempo usaremos essa abordagem.
@@ -58,12 +66,16 @@ Isso significa que cada navegador tem seu próprio estilo para algumas tags espe
 
 ![inspec body](body.png)
 
-Para resolver isso podemos adicionar o link abaixo dentro da tag `head`, que nada mais é que um link para um arquivo com alguns códigos queaplica um reset em todas as propriedades, iniciando sua aplicação sem nehum estilo predefinido, então sua aplicação fica pronta pra receber apenas o estilo que você definir no seu arquivo `.css`
+Para resolver isso podemos adicionar o link abaixo dentro da tag `head`, que nada mais é que um link para um arquivo com alguns códigos que aplicam o reset em todas as propriedades, iniciando sua aplicação sem nehum estilo predefinido, então sua aplicação fica pronta pra receber apenas o estilo que você definir no seu arquivo `.css`
 
 ```HTML
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
 ```
 
-Agora podemos trabalhar na nossa [CSS](css.md) pra conseguir visualizar o que fizemos até agora.
+> Vou deixar aqui pra vocês o link abaixo que aponta pra um ótimo artigo, explicando detalhadamente sobre `HTML`
 
-[🔙](starting.md)
+* [O básico: O que é HTML?](https://tableless.com.br/o-que-html-basico/)
+
+Então podemos trabalhar na nossa [CSS](css.md), e só assim vamos conseguir visualizar o que fizemos até agora.
+
+[🔙 Starting](starting.md)
