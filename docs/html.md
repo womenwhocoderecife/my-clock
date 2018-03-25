@@ -42,20 +42,20 @@ Agora pra ficar mais completo vamos adicionar o código abaixo na primeira linha
 <!DOCTYPE html>
 ```
 
-> Obs.: Esta não é melhor forma de começar uma aplicação para quem ainda está a na fase de início de aprendizado, porém devido ao nosso tempo usaremos essa abordagem.
+> Obs.: Para quem ainda está a na fase de início de aprendizado, esta não é melhor forma de começar uma aplicação, só estou usando essa abordagem devido ao nosso tempo.
 
 Copie o código abaixo e cole na próxima linha após a tag `body`
 
 ```HTML
 <div class='container'>
-  <div class='clock'>
-    <div class='clock-back'>
-      <div class='pointer pointer-hour'></div>
-      <div class='pointer pointer-min'></div>
-      <div class='pointer pointer-sec'></div>
+    <div class='clock'>
+      <div class='clock-back'>
+        <div class='pointer' data-js='pointerHour'></div>
+        <div class='pointer' data-js='pointerMin'></div>
+        <div class='pointer' data-js='pointerSec'></div>
+      </div>
     </div>
   </div>
-</div>
 ```
 
 Agora você pode ir na pasta `my-clock` que você criou na área de trabalho e abrir o arquivo `index.html`, clique com o segundo botão do mouse na página que você abriu e selecione `inspect`, vai abrir uma pequena janela, ela se chama inspetor de elementos, nela podemos visualizar os códigos que produzimos.
@@ -66,7 +66,7 @@ Isso significa que cada navegador tem seu próprio estilo para algumas tags espe
 
 ![inspec body](body.png)
 
-Para resolver isso podemos adicionar o link abaixo dentro da tag `head`, que nada mais é que um link para um arquivo com alguns códigos que aplicam o reset em todas as propriedades, iniciando sua aplicação sem nehum estilo predefinido, então sua aplicação fica pronta pra receber apenas o estilo que você definir no seu arquivo `.css`
+Para resolver isso podemos adicionar o link abaixo dentro da tag `head`, que nada mais é que um link para um arquivo com alguns códigos, que aplicam o reset em algumas propriedades CSS que possuem formatação padrão, iniciando sua aplicação sem nehum estilo predefinido, então sua aplicação fica pronta pra receber apenas o estilo que você definir no seu arquivo `.css`
 
 ```HTML
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>

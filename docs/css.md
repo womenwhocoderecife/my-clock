@@ -1,8 +1,8 @@
-![css image](css.jpeg)
+![css image](../assets/imgs/css.jpeg)
 
 # O que é CSS
 
-É uma linguagem utilizada para definir a apresentação (aparência), ela define como serão exibidos os elementos contidos no código de um documento e sua maior vantagem é efetuar a separação entre o formato e o conteúdo de um documento.
+É uma linguagem utilizada para definir a apresentação (aparência) da sua aplicação, ela define como serão exibidos os elementos contidos no código de um documento e sua maior vantagem é efetuar a separação entre o formato e o conteúdo de um documento.
 
 Em outras palavras, é através do CSS que você irá dá vida as suas aplicações, é na folha de estilo (CSS) que você define cores para os textos e para os fundos das caixas (blocos), os tamanhos dos textos, o alinhamento do conteúdo, é aqui que você define as animações e quão bonita e apresentável sua aplicação será apresentada ao usuário final, resumindo: CSS é 💜
 
@@ -22,7 +22,7 @@ Ok, nossa aplicação já sabe que irá utilizar o conteúdo do arquivo `main.cs
 
 Simboraaaa, mas antes de colocar a mão na massa aqui, preciso esclarecer um conceito que aplicamos no html e eu guardei pra falar quando realmente fizesse sentido, tipo agora 😍
 
-No nosso arquivo `index.html` dentro de cada tag `div` de abertura adicionamos uma palavrinha chamada `class`.
+No nosso arquivo `index.html`, dentro de cada tag `div` de abertura, adicionamos uma palavrinha chamada `class`.
 
 Acontece que nas nossas tags podemos adicionar vários atributos que são basicamente informações que repassamos para nossa tag solicitando para que elas se comportem conforme esperado.
 
@@ -30,9 +30,9 @@ Por exemplo, `class` é um atributo que recebe um valor representando o estilo q
 
 E o que isso tem a ver com CSS??? TUDOOOOOOO..
 
-Cada palavrinha repassada para o atributo `class` é chamada de valor do atributo, e como a `class` representa o atributo de estilo da nossa aplicação, isso quer dizer que se usarmos esses valores no nosso arquivo `main.css`, podemos manipular a apresentação do no conteúdo, ou seja, podemos usar esses valores (palavrinhas) pra especifar as cores, tamanhos, estilos dos elementos...
+Cada palavrinha repassada para o atributo `class` é chamada de valor do atributo, e como a `class` representa o atributo de estilo da nossa aplicação, isso quer dizer que se usarmos esses valores no nosso arquivo `main.css`, para podermos manipular a apresentação do nosso conteúdo, ou seja, podemos usar esses valores (palavrinhas) pra especifar as cores, tamanhos, estilos dos elementos...
 
-Importante falar que o atributo `class` é um atributo padrão que aplica estilos ao elemento, já o seu valor podemos dá o nome que preferirmos, porém é muito importante que esse nome faça sentido com o que o bloco em específico realmente representa na sua aplicação.
+É importante falar que o atributo `class` é um atributo padrão que aplica estilos ao elemento, já o seu valor podemos dá o nome que preferirmos, porém é muito importante que esse nome faça sentido com o que o bloco em específico realmente representa na sua aplicação.
 
 Então vamossss iniciar colocando a mão na massa:
 
@@ -100,9 +100,9 @@ Nessa classe iremos definir o círculo do nosso relógio, vamos entender o que e
 
 * `border-radius` essa propriedade é o que dá o efeito de círculo ao nosso relógio.
 * `border` aqui adicionamos uma borda para nosso círculo, essa propriedade recebe três valores: a primeira representa a espessura da borda, a segunda representa o tipo da borda e a última representa a cor da borda.
-* `position` agora definimos um tipo de posição para o nosso círculo, onde seu valor `relative` fazendo com que qualquer um de seus filhos que possuam `position: absoluta`, sejam relativos apenas ao círculo e não com toda a página da aplicação.
+* `position` agora definimos um tipo de posição para o nosso círculo, onde seu valor `relative` faz com que qualquer um de seus filhos que possuam `position: absoluta`, sejam relativos apenas ao círculo e não com toda a página da aplicação.
 * `padding` serve pra especificar o espaço interno entre as bordas do círculo e o seu conteúdo.
-* `box-shadow` aqui estamos adicionando várias sombras na parte interna da borda.
+* `box-shadow` aqui estamos adicionando várias sombras na parte interna do círculo.
 
 ---
 
@@ -140,6 +140,6 @@ Aqui vamos definir o estilo para os ponteiros de minutos, segundos e horas. Vamo
 
 * `position: absolute` agora nossos ponteiros tem posição absoluta em relação ao círculo.
 * `top` definimos uma distância do topo do círculo.
-* as últimas quatros propriedades estão relacionadas à rotação aplicadas ao ponteiro e que vamos manipluar seu comportamento na próxima etapa com [JS](js.md)
+* as últimas quatros propriedades estão relacionadas à rotação aplicadas ao ponteiro e que vamos manipluar alguns de seus valores na próxima etapa usando o [JS](js.md)
 
 [🔙 Starting](starting.md)

@@ -1,6 +1,6 @@
 # O que vamos fazer hoje?
 
-![clock](myclock.png)
+![clock](../assets/imgs/myclock.png)
 
 ## Como vamos criar nosso clock?
 
