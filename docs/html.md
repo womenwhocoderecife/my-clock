@@ -1,4 +1,4 @@
-![html](html.png)
+![html](../assets/imgs/html.png)
 
 # O que é HTML
 
@@ -64,7 +64,7 @@ Se você selecionar a tag `body` poderá visualizar que ela possue uma `margem d
 
 Isso significa que cada navegador tem seu próprio estilo para algumas tags específicas, o que acaba gerando compartamentos diferentes na sua aplicação dependendo do navegador que o usuário abrir.
 
-![inspec body](body.png)
+![inspec body](../assets/imgs/body.png)
 
 Para resolver isso podemos adicionar o link abaixo dentro da tag `head`, que nada mais é que um link para um arquivo com alguns códigos, que aplicam o reset em algumas propriedades CSS que possuem formatação padrão, iniciando sua aplicação sem nehum estilo predefinido, então sua aplicação fica pronta pra receber apenas o estilo que você definir no seu arquivo `.css`
 
