@@ -18,3 +18,5 @@ No universo web, cada uma dessas tecnologias tem suas próprias responsabilidade
 
 * [Primeiros passos na web](https://github.com/VaiNaWeb/primeiros-passos-na-web)
 * [WES BOSS - Courses](http://wesbos.com/courses/)
+* [Do Zero a Herói Front-End (Parte I)](https://www.felipefialho.com/blog/2016/do-zero-a-heroi-do-front-end-parte-1)
+* [Git e Github para iniciantes](https://www.udemy.com/git-e-github-para-iniciantes/learn/v4/overview)
